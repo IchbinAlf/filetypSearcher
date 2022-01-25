@@ -5,10 +5,12 @@ import os
 
 #   AI-SVG-Konverter mit filetypSearcher als Grundlage
 
-path = "../../Documents/00_Dokumente"
+# path = "../../Documents/00_Dokumente"
 
-for root, dirs, files in os.walk(path):
-    for x in files:
-        if x.endswith('.txt'):
-            print(x)
-        
+# for root, dirs, files in os.walk(path):
+#     for x in files:
+#         if x.endswith('.txt'):
+#             print(x)
+
+# Python PATH - weiter verfolgen
+import pywin32.client as win32
